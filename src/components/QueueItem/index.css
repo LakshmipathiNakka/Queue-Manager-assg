@@ -1,0 +1,30 @@
+.table-row {
+  display: flex;
+  list-style-type: none;
+  background-color: #ffc0cb;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 575px) {
+  .table-row {
+    display: flex;
+    list-style-type: none;
+    background-color: #ffc0cb;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 10px;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+}
